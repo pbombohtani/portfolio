@@ -11,13 +11,18 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.fullpage/2.5.9/jquery.fullPage.min.js"></script>    
     
-        <link rel="stylesheet" href="css/style.css">
+    <!-- Main Styles -->
+    <link href="css/style.css" media="screen, projection" rel="stylesheet" type="text/css">
     
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
-                sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke'],
-                CSS3: true
+                sectionsColor: ['#2d4059', '#4BBFC3', '#f13844', 'whitesmoke'],
+                menu: '#menu',
+                navigation: false,
+                navigationPosition: 'right',
+                CSS3: true,
+                anchors:[ 'startPage', 'workPage', 'resumePage', 'contactPage']
             });
         });
     </script>
@@ -28,6 +33,12 @@
             text-align: center;
             font-family: AmsiProCond-Ultra;
         }
+        h1 {
+            font-family: AmsiProCond-Ultra;
+        }
+        h2 {
+            font-family: AmsiProCond-Regular;
+        }
     </style>
     
 
@@ -35,13 +46,24 @@
 </head>
 
 <body>
+
+<nav class="main-menu" id="menu">
+   <ul>
+        <li data-menuanchor="startPage"><a href="#startPage">Start</a></li> 
+        <li data-menuanchor="workPage"><a href="#workPage">Work</a>
+        <li data-menuanchor="resumePage"><a href="#resumePage">Resume</a></li>
+        <li data-menuanchor="contactPage"><a href="#contactPage">Contact</a></li>
+   </ul>
+</nav>
+
 <div id="fullpage">
-    <div class="section">
-        
+    <div class="section start-page" data-anchor="startPage">
+        <h1>Section 1</h1>
+        <h2>Welcome to Vault 21</h2>
     </div>
-    <div class="section">Section 2</div>
-    <div class="section">Section 3</div>
-    <div class="section">Section 4</div>
+    <div class="section" data-anchor="workPage">Section 2</div>
+    <div class="section" data-anchor="resumePage">Section 3</div>
+    <div class="section" data-anchor="contactPage">Section 4</div>
 </div>
 </body>
 

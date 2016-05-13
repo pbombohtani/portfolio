@@ -66,3 +66,19 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* MAIN NAVIGATION
+   ========================================================================== */
+/* line 13, ../sass/screen.scss */
+.main-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+}
+
+/* ==========================================================================
+   PAGE STYLES
+   ========================================================================== */
