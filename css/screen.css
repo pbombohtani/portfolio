@@ -69,14 +69,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* MAIN NAVIGATION
    ========================================================================== */
-/* line 13, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 .main-menu {
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
-  height: 40px;
+  height: 60px;
   z-index: 70;
   width: 100%;
+  background-color: white;
+}
+
+/* line 29, ../sass/screen.scss */
+.main-menu__item {
+  width: 23.72881%;
+  display: table;
+  height: 100%;
+  float: left;
+}
+
+/* line 36, ../sass/screen.scss */
+.main-menu__link {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 100%;
+}
+
+/* line 43, ../sass/screen.scss */
+.menu-link--isRed {
+  background-color: #f13844;
 }
 
 /* ==========================================================================

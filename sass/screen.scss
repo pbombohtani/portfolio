@@ -4,22 +4,45 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/utilities/general/clearfix";
+@import "susy";
 
-
+$susy: (
+    columns: 12,
+    math: fluid,
+);
 
 /* MAIN NAVIGATION
    ========================================================================== */
 
 .main-menu {
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 0;
-    height: 40px;
+    height: 60px;
     z-index: 70;
     width: 100%;
+    background-color: white;
+
 }
 
+.main-menu__item {
+    width: span(3);
+    display: table;
+    height: 100%;
+    float: left;
+}
 
+.main-menu__link {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+}
+
+.menu-link--isRed {
+    background-color: #f13844;
+}
 
 /* ==========================================================================
    PAGE STYLES
