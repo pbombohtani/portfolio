@@ -11,13 +11,15 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.fullpage/2.5.9/jquery.fullPage.min.js"></script>    
     
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
+    
     <!-- Main Styles -->
     <link href="css/style.css" media="screen, projection" rel="stylesheet" type="text/css">
     
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
-                sectionsColor: ['#2d4059', '#4BBFC3', '#f13844', 'whitesmoke'],
+                sectionsColor: ['#2d4059', '#ffd166', '#f13844', '#1b998b'],
                 menu: '#menu',
                 navigation: false,
                 navigationPosition: 'right',
@@ -47,19 +49,35 @@
 
 <body>
 <ul class="main-menu" id="menu">
-    <li class="main-menu__item" data-menuanchor="startPage"><a class="main-menu__link" href="#startPage">Start</a></li> 
-    <li class="main-menu__item" data-menuanchor="workPage"><a class="main-menu__link" href="#workPage">Work</a>
-    <li class="main-menu__item menu-link--isRed" data-menuanchor="resumePage"><a class="main-menu__link " href="#resumePage">Resume</a></li>
-    <li class="main-menu__item" data-menuanchor="contactPage"><a class="main-menu__link" href="#contactPage">Contact</a></li>
+    <li class="main-menu__item menu-link--isNavy" data-menuanchor="startPage">
+        <a class="main-menu__link" href="#startPage">
+            <span class="main-menu__text">Start</span>
+        </a>
+    </li> 
+    <li class="main-menu__item menu-link--isGold" data-menuanchor="workPage">
+        <a class="main-menu__link" href="#workPage">
+            <span class="main-menu__text">Work</span>
+        </a>
+    </li>
+    <li class="main-menu__item menu-link--isRed" data-menuanchor="resumePage">
+        <a class="main-menu__link " href="#resumePage">
+            <span class="main-menu__text">Resume</span>
+        </a>
+    </li>
+    <li class="main-menu__item menu-link--isGreen" data-menuanchor="contactPage">
+        <a class="main-menu__link" href="#contactPage">
+            <span class="main-menu__text">Contact</span>
+        </a>
+    </li>
 </ul>
 <div id="fullpage">
     <div class="section start-page" data-anchor="startPage">
         <h1>Section 1</h1>
         <h2>Welcome to Vault 21</h2>
     </div>
-    <div class="section" data-anchor="workPage">Section 2</div>
-    <div class="section" data-anchor="resumePage">Section 3</div>
-    <div class="section" data-anchor="contactPage">Section 4</div>
+    <div class="section" data-anchor="workPage">My Work</div>
+    <div class="section" data-anchor="resumePage">Resume</div>
+    <div class="section" data-anchor="contactPage">Contact</div>
 </div>
 </body>
 

@@ -1,49 +1,7 @@
 @charset "UTF-8";
-/* VARIABLES */
-/* Color Palette
-   ========================================================================== */
-/* SUSY GRID */
-/* TYPOGRAPHY */
-/**
- * @license
- * MyFonts Webfont Build ID 3208521, 2016-04-23T16:17:29-0400
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: AmsiProCond-Ultra by Stawix
- * URL: http://www.myfonts.com/fonts/stawix/amsi-pro/cond-ultra/
- * Copyright: &#x00A9; 2012, 2013, 2014, 2015 by Stawix Ruecha &amp; Foundry. All rights reserved.
- * Licensed pageviews: 10,000
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=3208521
- * 
- * ┬⌐ 2016 MyFonts Inc
-*/
-/* AmsiProCond-Ultra Reference */
+/* RESETS */
 @import url("//hello.myfonts.net/count/30f549");
-/* AmsiProCond-Regular Reference */
 @import url("//hello.myfonts.net/count/30f548");
-/* AmsiProCond-Ultra Import */
-@font-face {
-  font-family: 'AmsiProCond-Ultra';
-  src: url("../webfonts/30F549_0_0.eot");
-  src: url("../webfonts/30F549_0_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30F549_0_0.woff2") format("woff2"), url("../webfonts/30F549_0_0.woff") format("woff"), url("../webfonts/30F549_0_0.ttf") format("truetype");
-}
-/* AmsiProCond-Regular Import */
-@font-face {
-  font-family: 'AmsiProCond-Regular';
-  src: url("../webfonts/30F548_0_0.eot");
-  src: url("../webfonts/30F548_0_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30F548_0_0.woff2") format("woff2"), url("../webfonts/30F548_0_0.woff") format("woff"), url("../webfonts/30F548_0_0.ttf") format("truetype");
-}
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 5, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -109,9 +67,64 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* SUSY GRID */
+/* TYPOGRAPHY */
+/**
+ * @license
+ * MyFonts Webfont Build ID 3208521, 2016-04-23T16:17:29-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AmsiProCond-Ultra by Stawix
+ * URL: http://www.myfonts.com/fonts/stawix/amsi-pro/cond-ultra/
+ * Copyright: &#x00A9; 2012, 2013, 2014, 2015 by Stawix Ruecha &amp; Foundry. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3208521
+ * 
+ * ┬⌐ 2016 MyFonts Inc
+*/
+/* AmsiProCond-Ultra Reference */
+/* AmsiProCond-Regular Reference */
+/* AmsiProCond-Ultra Import */
+@font-face {
+  font-family: 'AmsiProCond-Ultra';
+  src: url("../webfonts/30F549_0_0.eot");
+  src: url("../webfonts/30F549_0_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30F549_0_0.woff2") format("woff2"), url("../webfonts/30F549_0_0.woff") format("woff"), url("../webfonts/30F549_0_0.ttf") format("truetype");
+}
+/* AmsiProCond-Regular Import */
+@font-face {
+  font-family: 'AmsiProCond-Regular';
+  src: url("../webfonts/30F548_0_0.eot");
+  src: url("../webfonts/30F548_0_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30F548_0_0.woff2") format("woff2"), url("../webfonts/30F548_0_0.woff") format("woff"), url("../webfonts/30F548_0_0.ttf") format("truetype");
+}
+/* line 34, ../sass/_typography.scss */
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+/* line 39, ../sass/_typography.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* VARIABLES */
+/* Color Palette
+   ========================================================================== */
 /* MAIN NAVIGATION
    ========================================================================== */
-/* line 18, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 .main-menu {
   position: fixed;
   bottom: 0;
@@ -122,25 +135,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: white;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 .main-menu__item {
-  width: 23.72881%;
+  width: 25%;
   display: table;
   height: 100%;
   float: left;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 .main-menu__link {
+  text-shadow: 2px 2px 1px #1a1a1a;
+  text-shadow: 2px 2px 1px 1px #1a1a1a;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   height: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1em;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 .menu-link--isRed {
   background-color: #f13844;
+}
+
+/* line 60, ../sass/screen.scss */
+.menu-link--isNavy {
+  background-color: #2d4059;
+}
+
+/* line 64, ../sass/screen.scss */
+.menu-link--isGold {
+  background-color: #ffd166;
+}
+
+/* line 68, ../sass/screen.scss */
+.menu-link--isGreen {
+  background-color: #1b998b;
 }
 
 /* ==========================================================================
