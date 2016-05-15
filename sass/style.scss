@@ -1,10 +1,16 @@
 /* RESETS */
 @import "compass/reset";
 
+/* VARIABLES */
+@import "variables";
+
 /* SUSY GRID */
 @import "grids";
 
 /* TYPOGRAPHY */
 @import "typography";
+
+/* SVG */
+@import "svg";
 
 @import "screen";

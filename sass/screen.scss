@@ -3,18 +3,9 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-/* VARIABLES */
-@import "variables";
+
 @import "compass/utilities/general/clearfix";
 @import "compass/css3";
-@import "susy";
-
-$susy: (
-    columns: 12,
-    math: fluid,
-    gutters: 1/4,
-    gutter-position: inside,
-);
 
 /* MAIN NAVIGATION
    ========================================================================== */
@@ -23,7 +14,7 @@ $susy: (
     position: fixed;
     bottom: 0;
     left: 0;
-    height: 60px;
+    height: 80px;
     z-index: 70;
     width: 100%;
     background-color: white;
@@ -38,7 +29,7 @@ $susy: (
 }
 
 .main-menu__link {
-    @include single-text-shadow(2px, 2px, 1px, 1px, #1a1a1a);
+    //@include single-text-shadow(2px, 2px, 1px, 1px, #1a1a1a);
     display: table-cell;
     vertical-align: middle;
     text-align: center;

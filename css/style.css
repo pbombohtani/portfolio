@@ -2,7 +2,7 @@
 /* RESETS */
 @import url("//hello.myfonts.net/count/30f549");
 @import url("//hello.myfonts.net/count/30f548");
-/* line 5, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,49 +24,55 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
+/* VARIABLES */
+/* Color Palette
+   ========================================================================== */
+/* Icon Variables
+   ========================================================================== */
+/* Mobile */
 /* SUSY GRID */
 /* TYPOGRAPHY */
 /**
@@ -87,7 +93,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  * 
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=3208521
  * 
- * ┬⌐ 2016 MyFonts Inc
+ * © 2016 MyFonts Inc
 */
 /* AmsiProCond-Ultra Reference */
 /* AmsiProCond-Regular Reference */
@@ -115,27 +121,60 @@ body {
   font-size: 18px;
 }
 
+/* SVG */
+/* line 1, ../sass/_svg.scss */
+.chat-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMSAxNiI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6I0Y4RkFFRDt9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTcuOCA3Yy0wLjEgMC0wLjMgMC0wLjMgMC4yczAgMC4zIDAuMiAwLjNjMiAwLjYgMi44IDEuNiAyLjggMyAwIDEuMy0xLjIgMi4zLTEuOSAyLjggLTAuMSAwLTAuMSAwLjEtMC4xIDAuMnYxLjljLTAuNC0wLjEtMS0wLjQtMS42LTEuMSAtMC4xLTAuMS0wLjEtMC4xLTAuMi0wLjEgLTAuMSAwLTAuMyAwLjEtMC40IDAuMSAtMC4zIDAuMS0wLjUgMC4xLTAuOCAwLjEgLTEuMyAwLTIuMi0wLjMtMy4xLTEgLTAuMS0wLjEtMC4zLTAuMS0wLjQgMC4xUzEyIDEzLjkgMTIuMSAxNGMxIDAuNyAyIDEgMy40IDEgMC4zIDAgMC42LTAuMSAwLjktMC4yIDAuMSAwIDAuMiAwIDAuMy0wLjEgMC45IDEgMiAxLjIgMiAxLjIgMCAwIDAgMCAwIDAgMC4xIDAgMC4xIDAgMC4yLTAuMSAwLjEgMCAwLjEtMC4xIDAuMS0wLjJ2LTIuMWMxLjMtMC45IDItMiAyLTMuMUMyMSA4LjggMjAgNy43IDE3LjggN0wxNy44IDd6TTE2LjUgNi44QzE2LjUgMi45IDEzIDAgOC4zIDAgMy43IDAgMCAzIDAgNi44YzAgMi4zIDEuNiAzLjkgMyA0Ljl2My4zYzAgMC4xIDAgMC4yIDAuMSAwLjIgMCAwIDAuMSAwIDAuMSAwIDAgMCAwLjEgMCAwLjEgMCAwLjEgMCAxLjgtMC44IDMuMi0yLjQgMC42IDAuMSAxLjMgMC4yIDIgMC4yQzEzLjMgMTMgMTYuNSAxMC41IDE2LjUgNi44TDE2LjUgNi44ek04LjYgMTIuNWMtMC43IDAtMS40LTAuMS0yLTAuMiAtMC4xIDAtMC4yIDAtMC4yIDAuMSAtMSAxLjItMi4yIDEuOS0yLjggMi4ydi0zYzAtMC4xIDAtMC4yLTAuMS0wLjIgLTEuMy0wLjktMi45LTIuNC0yLjktNC41IDAtMy41IDMuNC02LjMgNy44LTYuMyA0LjQgMCA3LjcgMi43IDcuNyA2LjJDMTYgMTAuMiAxMyAxMi41IDguNiAxMi41TDguNiAxMi41ek04LjIgNS44Yy0wLjYgMC0xIDAuNC0xIDFzMC40IDEgMSAxIDEtMC40IDEtMVM4LjggNS44IDguMiA1Ljh6TTguMiA3LjJDOCA3LjIgNy44IDcgNy44IDYuOFM4IDYuMiA4LjIgNi4yczAuNSAwLjIgMC41IDAuNVM4LjUgNy4yIDguMiA3LjJ6TTExLjggNS44Yy0wLjYgMC0xIDAuNC0xIDFzMC40IDEgMSAxIDEtMC40IDEtMVMxMi4zIDUuOCAxMS44IDUuOHpNMTEuOCA3LjJjLTAuMyAwLTAuNS0wLjItMC41LTAuNXMwLjItMC41IDAuNS0wLjUgMC41IDAuMiAwLjUgMC41UzEyIDcuMiAxMS44IDcuMnpNNC44IDUuOGMtMC42IDAtMSAwLjQtMSAxczAuNCAxIDEgMSAxLTAuNCAxLTFTNS4zIDUuOCA0LjggNS44ek00LjggNy4zYy0wLjMgMC0wLjUtMC4yLTAuNS0wLjVzMC4yLTAuNSAwLjUtMC41IDAuNSAwLjIgMC41IDAuNVM1IDcuMyA0LjggNy4zeiIvPjwvc3ZnPg==) no-repeat center center;
+}
+
+/* line 8, ../sass/_svg.scss */
+.resume-icon {
+  width: 42px;
+  height: 42px;
+  margin: 0 auto;
+  margin-bottom: 6px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMiAxNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6I0Y4RkFFRDt9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMC44IDE2aDEwLjVjMC40IDAgMC44LTAuMyAwLjgtMC44VjQuOGMwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC0wLjEgMC0wLjEgMCAwIDAgMCAwIDBsLTQtNC41YzAgMCAwIDAgMCAwQzcuOSAwIDcuOSAwIDcuOCAwYzAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwaC03QzAuMyAwIDAgMC4zIDAgMC43djE0LjVDMCAxNS43IDAuMyAxNiAwLjggMTZMMC44IDE2ek04IDAuOWwzLjIgMy42SDguMkM4LjEgNC41IDggNC4zIDggNC4xVjAuOUw4IDAuOXpNMC41IDAuOGMwLTAuMSAwLjEtMC4yIDAuMi0wLjJoNi44djMuNkM3LjUgNC41IDcuOCA1IDguMiA1aDMuMnYxMC4yYzAgMC4xLTAuMSAwLjItMC4yIDAuMkgwLjhjLTAuMSAwLTAuMi0wLjEtMC4yLTAuMlYwLjh6TTIuOCA3aDYuNWMwLjEgMCAwLjItMC4xIDAuMi0wLjJTOS40IDYuNSA5LjIgNi41SDIuOGMtMC4xIDAtMC4yIDAuMS0wLjIgMC4yUzIuNiA3IDIuOCA3ek0yLjggOWg2LjVjMC4xIDAgMC4yLTAuMSAwLjItMC4yUzkuNCA4LjUgOS4yIDguNUgyLjhjLTAuMSAwLTAuMiAwLjEtMC4yIDAuMlMyLjYgOSAyLjggOXpNMi44IDVoM0M1LjkgNSA2IDQuOSA2IDQuOFM1LjkgNC41IDUuOCA0LjVoLTNjLTAuMSAwLTAuMiAwLjEtMC4yIDAuMlMyLjYgNSAyLjggNXpNMi44IDExaDYuNWMwLjEgMCAwLjItMC4xIDAuMi0wLjJzLTAuMS0wLjItMC4yLTAuMkgyLjhjLTAuMSAwLTAuMiAwLjEtMC4yIDAuMlMyLjYgMTEgMi44IDExek0yLjggMTNoNi41YzAuMSAwIDAuMi0wLjEgMC4yLTAuMnMtMC4xLTAuMi0wLjItMC4ySDIuOGMtMC4xIDAtMC4yIDAuMS0wLjIgMC4yUzIuNiAxMyAyLjggMTN6Ii8+PC9zdmc+) no-repeat center center;
+}
+
+/* line 16, ../sass/_svg.scss */
+.work-icon {
+  width: 42px;
+  height: 42px;
+  margin: 0 auto;
+  margin-bottom: 6px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzOCAzMiI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6I0Y4RkFFRDt9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzcuNSAxOGMtMC4zIDAtMC41IDAuMi0wLjUgMC41djEyYzAgMC4zLTAuMiAwLjUtMC41IDAuNWgtMzVDMS4yIDMxIDEgMzAuOCAxIDMwLjV2LTEyQzEgMTguMiAwLjggMTggMC41IDE4UzAgMTguMiAwIDE4LjV2MTJDMCAzMS4zIDAuNyAzMiAxLjUgMzJoMzVjMC44IDAgMS41LTAuNyAxLjUtMS41di0xMkMzOCAxOC4yIDM3LjggMTggMzcuNSAxOHpNMjUuNSA1QzI1LjggNSAyNiA0LjggMjYgNC41di0zQzI2IDAuNyAyNS4zIDAgMjQuNSAwaC0xMUMxMi43IDAgMTIgMC43IDEyIDEuNXYzQzEyIDQuOCAxMi4yIDUgMTIuNSA1UzEzIDQuOCAxMyA0LjV2LTNDMTMgMS4yIDEzLjIgMSAxMy41IDFoMTFDMjQuOCAxIDI1IDEuMiAyNSAxLjV2M0MyNSA0LjggMjUuMiA1IDI1LjUgNXpNMzYuNSA3aC0zNUMwLjcgNyAwIDcuNyAwIDguNXY1QzAgMTYuMiA5LjUgMjAgMTkuMSAyMGM5LjUgMCAxOC45LTMuNyAxOC45LTYuNXYtNUMzOCA3LjcgMzcuMyA3IDM2LjUgN3pNMzcgMTMuNWMwIDEuOC04LjUgNS41LTE3LjkgNS41QzkuNiAxOSAxIDE1LjIgMSAxMy41di01QzEgOC4yIDEuMiA4IDEuNSA4aDM1QzM2LjggOCAzNyA4LjIgMzcgOC41VjEzLjV6TTE5LjEgMjNjMC45IDAgMS45IDAgMi45LTAuMSAwLjMgMCAwLjUtMC4zIDAuNS0wLjUgMC0wLjMtMC4zLTAuNS0wLjUtMC41IC0yIDAuMi0zLjkgMC4xLTUuOSAwIC0wLjMgMC0wLjUgMC4yLTAuNSAwLjVzMC4yIDAuNSAwLjUgMC41QzE3IDIzIDE4LjEgMjMgMTkuMSAyM3oiLz48L3N2Zz4=) no-repeat center center;
+}
+
+/* line 24, ../sass/_svg.scss */
+.start-icon {
+  width: 42px;
+  height: 42px;
+  margin: 0 auto;
+  margin-bottom: 6px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6I0Y4RkFFRDt9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNOCAwQzMuNiAwIDAgMy42IDAgOHMzLjYgOCA4IDggOC0zLjYgOC04UzEyLjQgMCA4IDBMOCAwek04IDE1LjVjLTQuMSAwLTcuNS0zLjQtNy41LTcuNVMzLjkgMC41IDggMC41czcuNSAzLjQgNy41IDcuNVMxMi4xIDE1LjUgOCAxNS41ek01LjIgOC4yYzAuNiAwIDEtMC40IDEtMXMtMC40LTEtMS0xIC0xIDAuNC0xIDFTNC43IDguMiA1LjIgOC4yek01LjIgNi44YzAuMyAwIDAuNSAwLjIgMC41IDAuNVM1LjUgNy44IDUuMiA3LjggNC44IDcuNSA0LjggNy4yIDUgNi44IDUuMiA2Ljh6TTEwLjggOC4yYzAuNiAwIDEtMC40IDEtMXMtMC40LTEtMS0xIC0xIDAuNC0xIDFTMTAuMiA4LjIgMTAuOCA4LjJ6TTEwLjggNi44YzAuMyAwIDAuNSAwLjIgMC41IDAuNVMxMSA3LjggMTAuOCA3LjhzLTAuNS0wLjItMC41LTAuNVMxMC41IDYuOCAxMC44IDYuOHpNMTEuNCAxMWMtMC44IDAuOS0yIDEuNC0zLjMgMS40IC0xLjMgMC0yLjUtMC41LTMuMy0xLjUgLTAuMS0wLjEtMC4zLTAuMS0wLjQgMHMtMC4xIDAuMyAwIDAuNGMxIDEuMSAyLjMgMS43IDMuNyAxLjcgMS40IDAgMi43LTAuNiAzLjctMS42IDAuMS0wLjEgMC4xLTAuMyAwLTAuNFMxMS41IDEwLjkgMTEuNCAxMUwxMS40IDExeiIvPjwvc3ZnPg==) no-repeat center center;
+}
+
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* VARIABLES */
-/* Color Palette
-   ========================================================================== */
 /* MAIN NAVIGATION
    ========================================================================== */
-/* line 22, ../sass/screen.scss */
+/* line 13, ../sass/screen.scss */
 .main-menu {
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 60px;
+  height: 80px;
   z-index: 70;
   width: 100%;
   background-color: white;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 .main-menu__item {
   width: 25%;
   display: table;
@@ -143,10 +182,8 @@ body {
   float: left;
 }
 
-/* line 40, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 .main-menu__link {
-  text-shadow: 2px 2px 1px #1a1a1a;
-  text-shadow: 2px 2px 1px 1px #1a1a1a;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -157,22 +194,22 @@ body {
   font-size: 1em;
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .menu-link--isRed {
   background-color: #f13844;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .menu-link--isNavy {
   background-color: #2d4059;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .menu-link--isGold {
   background-color: #ffd166;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .menu-link--isGreen {
   background-color: #1b998b;
 }
