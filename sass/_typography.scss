@@ -31,6 +31,7 @@
 /* AmsiProCond-Regular Import */
 @font-face {font-family: 'AmsiProCond-Regular';src: url('../webfonts/30F548_0_0.eot');src: url('../webfonts/30F548_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/30F548_0_0.woff2') format('woff2'),url('../webfonts/30F548_0_0.woff') format('woff'),url('../webfonts/30F548_0_0.ttf') format('truetype');}
 
+/* Font smoothing only available on MAC OS */
 html, html a {
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
@@ -39,4 +40,5 @@ html, html a {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    color: $offwhite;
 }
