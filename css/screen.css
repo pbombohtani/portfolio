@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$not-red".
-        on line 56 of C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss
+        on line 49 of C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss
 
-51: .main-menu__text {
-52:     
-53: }
-54: 
-55: .menu-link--isRed {
-56:     background-color: $not-red;
-57: }
-58: 
-59: .menu-link--isNavy {
-60:     background-color: $navy;
-61: }
+44: .main-menu__text {
+45:     
+46: }
+47: 
+48: .menu-link--isRed {
+49:     background-color: $not-red;
+50: }
+51: 
+52: .menu-link--isNavy {
+53:     background-color: $navy;
+54: }
 
 Backtrace:
-C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss:56
+C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss:49
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -57,19 +57,14 @@ C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:i
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-C:/Ruby23/bin/compass:23:in `load'
-C:/Ruby23/bin/compass:23:in `<main>'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$not-red\".\A         on line 56 of C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss\A \A 51: .main-menu__text {\A 52:     \A 53: }\A 54: \A 55: .menu-link--isRed {\A 56:     background-color: $not-red;\A 57: }\A 58: \A 59: .menu-link--isNavy {\A 60:     background-color: $navy;\A 61: }"; }
+  content: "Error: Undefined variable: \"$not-red\".\A         on line 49 of C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss\A \A 44: .main-menu__text {\A 45:     \A 46: }\A 47: \A 48: .menu-link--isRed {\A 49:     background-color: $not-red;\A 50: }\A 51: \A 52: .menu-link--isNavy {\A 53:     background-color: $navy;\A 54: }"; }
