@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$not-red".
-        on line 49 of C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss
+Error: Undefined variable: "$coolgreen".
+        on line 26 of C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss
 
-44: .main-menu__text {
-45:     
-46: }
-47: 
-48: .menu-link--isRed {
-49:     background-color: $not-red;
-50: }
-51: 
-52: .menu-link--isNavy {
-53:     background-color: $navy;
-54: }
+21:     bottom: 0;
+22:     left: 0;
+23:     height: 80px;
+24:     z-index: 70;
+25:     width: 100%;
+26:     background-color: $coolgreen;
+27: 
+28: }
+29: 
+30: .main-menu__item {
+31:     &:nth-child(1) {
 
 Backtrace:
-C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss:49
+C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss:26
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -67,4 +67,4 @@ C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$not-red\".\A         on line 49 of C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss\A \A 44: .main-menu__text {\A 45:     \A 46: }\A 47: \A 48: .menu-link--isRed {\A 49:     background-color: $not-red;\A 50: }\A 51: \A 52: .menu-link--isNavy {\A 53:     background-color: $navy;\A 54: }"; }
+  content: "Error: Undefined variable: \"$coolgreen\".\A         on line 26 of C:/Users/Patty/Documents/GitHub/Fullpage/sass/screen.scss\A \A 21:     bottom: 0;\A 22:     left: 0;\A 23:     height: 80px;\A 24:     z-index: 70;\A 25:     width: 100%;\A 26:     background-color: $coolgreen;\A 27: \A 28: }\A 29: \A 30: .main-menu__item {\A 31:     &:nth-child(1) {"; }
