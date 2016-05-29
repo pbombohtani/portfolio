@@ -1,0 +1,110 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+@import "compass/utilities/general/clearfix";
+@import "compass/css3";
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* VARIABLES
+   ========================================================================== */
+
+/* COLOR PALETTE */
+$not-red: #f13844; //rgba(241, 56, 68, 100)
+$navy: #2d4059; //rgba(45, 64, 89, 100)
+$gold: #ffd166; //rgba(255, 209, 102, 100)
+$offwhite: #f8faed; //rgba(248, 250, 237, 100)
+$coolgreen: #1b998b; //rgba(27, 153, 139, 100) 
+
+/* ==========================================================================
+   OVERRIDES
+   ========================================================================== */
+
+
+
+/* MAIN NAVIGATION
+   ========================================================================== */
+
+.main-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    z-index: 70;
+    width: 100%;
+    background-color: $coolgreen;
+    margin: 0;
+
+}
+
+.main-menu__item {
+    &:nth-child(1) {
+		@include span(1 at 1 of 4 isolate);
+	}
+    &:nth-child(2) {
+		@include span(1 at 2 of 4 isolate);
+	}
+    &:nth-child(3) {
+		@include span(1 at 3 of 4 isolate);
+	}
+    &:nth-child(4) {
+		@include span(1 at 4 of 4 isolate);
+	}
+    display: table;
+    height: 100%;
+
+}
+
+.main-menu__link {
+    @include single-text-shadow(2px, 2px, 3px, 3px, #1a1a1a);
+    //@include single-text-shadow(2px, 2px, 1px, 1px, #1a1a1a);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1em;
+}
+
+.main-menu__text {
+    
+}
+
+.menu-link--isRed {
+    background-color: $not-red;
+}
+
+.menu-link--isNavy {
+    background-color: $navy;
+}
+
+.menu-link--isGold {
+    background-color: $gold;
+}
+
+.menu-link--isGreen {
+    background-color: $coolgreen;
+}
+
+/* ==========================================================================
+   PAGE STYLES
+   ========================================================================== */
+
+.start-page {
+    padding: 10%;
+    //margin-bottom: 60px;
+}
+
+.start-page__intro {
+    font-size: 1.414rem;
+    line-height: 1.5;
+}
