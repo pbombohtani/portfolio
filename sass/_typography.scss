@@ -1,3 +1,5 @@
+@import 'modular-scale';
+
 /**
  * @license
  * MyFonts Webfont Build ID 3208521, 2016-04-23T16:17:29-0400
@@ -37,8 +39,44 @@ html, html a {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+/**
+ * 
+ */
+
+/* ==========================================================================
+    TYPOGRAPHY STYLES
+   ========================================================================== */
+
+/* VARIABLES
+   ========================================================================== */
+
+    $heading-font: AmsiProCond-Ultra, Impact, Sans-Serif; 
+
+    $ms-base: 1em;
+    $ms-ratio: $augmented-fourth; //1.414
+
+    $base-line-height: 	21px;
+
+    h5 { font-size: ms(1); }
+    h4 { font-size: ms(2); }
+    h3 { font-size: ms(3); }
+    h2 { font-size: ms(4); }
+    h1 { font-size: ms(5); }
+
+    
+    $cap-height: .71;
+
+
+
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: ms(0);
+    //line-heigth: 1.4;
     color: $offwhite;
+}
+
+p {
+    max-width: 33em;
 }

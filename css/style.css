@@ -109,18 +109,122 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   src: url("../webfonts/30F548_0_0.eot");
   src: url("../webfonts/30F548_0_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30F548_0_0.woff2") format("woff2"), url("../webfonts/30F548_0_0.woff") format("woff"), url("../webfonts/30F548_0_0.ttf") format("truetype");
 }
-/* Font smoothing only available on MAC OS */
-/* line 35, ../sass/_typography.scss */
-html, html a {
+/*Variables*/
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+/* line 50, ../sass/_typebase.scss */
+html {
+  /* Change default typefaces here */
+  font-family: "Open Sans", sans-serif;
+  font-size: 112.5%;
   -webkit-font-smoothing: antialiased;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  color: #f8faed;
 }
 
-/* line 40, ../sass/_typography.scss */
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  color: #f8faed;
+/* Copy & Lists */
+/* line 66, ../sass/_typebase.scss */
+p {
+  line-height: 1.4rem;
+  margin-top: 1.4rem;
+  margin-bottom: 0;
+  max-width: 33em;
+}
+
+/* line 72, ../sass/_typebase.scss */
+ul, ol {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+/* line 75, ../sass/_typebase.scss */
+ul li, ol li {
+  line-height: 1.4rem;
+}
+/* line 77, ../sass/_typebase.scss */
+ul ul, ul ol, ol ul, ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 84, ../sass/_typebase.scss */
+blockquote {
+  line-height: 1.4rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+/* Headings */
+/* line 91, ../sass/_typebase.scss */
+h1, h2, h3, h4, h5, h6 {
+  /* Change heading typefaces here */
+  font-family: AmsiProCond-Ultra, Impact, sans-serif;
+  margin-top: 1.4rem;
+  margin-bottom: 0;
+  line-height: 1.4rem;
+}
+
+/* line 99, ../sass/_typebase.scss */
+h1 {
+  font-size: 4.242rem;
+  line-height: 4.2rem;
+  margin-top: 2.8rem;
+}
+
+/* line 105, ../sass/_typebase.scss */
+h2 {
+  font-size: 2.828rem;
+  line-height: 2.8rem;
+  margin-top: 2.8rem;
+}
+
+/* line 111, ../sass/_typebase.scss */
+h3 {
+  font-size: 1.414rem;
+}
+
+/* line 115, ../sass/_typebase.scss */
+h4 {
+  font-size: 0.707rem;
+}
+
+/* line 119, ../sass/_typebase.scss */
+h5 {
+  font-size: 0.47133rem;
+}
+
+/* line 123, ../sass/_typebase.scss */
+h6 {
+  font-size: 0.3535rem;
+}
+
+/* Tables */
+/* line 128, ../sass/_typebase.scss */
+table {
+  margin-top: 1.4rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+/* line 133, ../sass/_typebase.scss */
+table td, table th {
+  padding: 0;
+  line-height: 25.2px;
+}
+
+/* Code blocks */
+/* line 141, ../sass/_typebase.scss */
+code {
+  vertical-align: bottom;
+}
+
+/* Leading paragraph text */
+/* line 148, ../sass/_typebase.scss */
+.lead {
+  font-size: 1.414rem;
+}
+
+/* Hug a the block above you */
+/* line 154, ../sass/_typebase.scss */
+.hug {
+  margin-top: 0;
 }
 
 /* SVG */
@@ -160,20 +264,27 @@ body {
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6I0Y4RkFFRDt9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNOCAwQzMuNiAwIDAgMy42IDAgOHMzLjYgOCA4IDggOC0zLjYgOC04UzEyLjQgMCA4IDBMOCAwek04IDE1LjVjLTQuMSAwLTcuNS0zLjQtNy41LTcuNVMzLjkgMC41IDggMC41czcuNSAzLjQgNy41IDcuNVMxMi4xIDE1LjUgOCAxNS41ek01LjIgOC4yYzAuNiAwIDEtMC40IDEtMXMtMC40LTEtMS0xIC0xIDAuNC0xIDFTNC43IDguMiA1LjIgOC4yek01LjIgNi44YzAuMyAwIDAuNSAwLjIgMC41IDAuNVM1LjUgNy44IDUuMiA3LjggNC44IDcuNSA0LjggNy4yIDUgNi44IDUuMiA2Ljh6TTEwLjggOC4yYzAuNiAwIDEtMC40IDEtMXMtMC40LTEtMS0xIC0xIDAuNC0xIDFTMTAuMiA4LjIgMTAuOCA4LjJ6TTEwLjggNi44YzAuMyAwIDAuNSAwLjIgMC41IDAuNVMxMSA3LjggMTAuOCA3LjhzLTAuNS0wLjItMC41LTAuNVMxMC41IDYuOCAxMC44IDYuOHpNMTEuNCAxMWMtMC44IDAuOS0yIDEuNC0zLjMgMS40IC0xLjMgMC0yLjUtMC41LTMuMy0xLjUgLTAuMS0wLjEtMC4zLTAuMS0wLjQgMHMtMC4xIDAuMyAwIDAuNGMxIDEuMSAyLjMgMS43IDMuNyAxLjcgMS40IDAgMi43LTAuNiAzLjctMS42IDAuMS0wLjEgMC4xLTAuMyAwLTAuNFMxMS41IDEwLjkgMTEuNCAxMUwxMS40IDExeiIvPjwvc3ZnPg==) no-repeat center center;
 }
 
+/* MAIN */
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 10, ../sass/screen.scss */
+/* line 10, ../sass/_main.scss */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/* VARIABLES
+   ========================================================================== */
+/* COLOR PALETTE */
+/* ==========================================================================
+   OVERRIDES
+   ========================================================================== */
 /* MAIN NAVIGATION
    ========================================================================== */
-/* line 19, ../sass/screen.scss */
+/* line 35, ../sass/_main.scss */
 .main-menu {
   position: fixed;
   bottom: 0;
@@ -182,14 +293,15 @@ body {
   z-index: 70;
   width: 100%;
   background-color: #1b998b;
+  margin: 0;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 47, ../sass/_main.scss */
 .main-menu__item {
   display: table;
   height: 100%;
 }
-/* line 31, ../sass/screen.scss */
+/* line 48, ../sass/_main.scss */
 .main-menu__item:nth-child(1) {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -201,7 +313,7 @@ body {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
-/* line 34, ../sass/screen.scss */
+/* line 51, ../sass/_main.scss */
 .main-menu__item:nth-child(2) {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -213,7 +325,7 @@ body {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
-/* line 37, ../sass/screen.scss */
+/* line 54, ../sass/_main.scss */
 .main-menu__item:nth-child(3) {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -225,7 +337,7 @@ body {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
-/* line 40, ../sass/screen.scss */
+/* line 57, ../sass/_main.scss */
 .main-menu__item:nth-child(4) {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -238,7 +350,7 @@ body {
   padding-right: 2.5%;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 65, ../sass/_main.scss */
 .main-menu__link {
   text-shadow: 2px 2px 3px #1a1a1a;
   text-shadow: 2px 2px 3px 3px #1a1a1a;
@@ -252,26 +364,39 @@ body {
   font-size: 1em;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 82, ../sass/_main.scss */
 .menu-link--isRed {
   background-color: #f13844;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 86, ../sass/_main.scss */
 .menu-link--isNavy {
   background-color: #2d4059;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 90, ../sass/_main.scss */
 .menu-link--isGold {
   background-color: #ffd166;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 94, ../sass/_main.scss */
 .menu-link--isGreen {
   background-color: #1b998b;
 }
 
 /* ==========================================================================
    PAGE STYLES
+   ========================================================================== */
+/* line 102, ../sass/_main.scss */
+.start-page {
+  padding: 10%;
+}
+
+/* line 107, ../sass/_main.scss */
+.start-page__intro {
+  font-size: 1.414rem;
+  line-height: 1.5;
+}
+
+/* TYPOGRAPHY
    ========================================================================== */
