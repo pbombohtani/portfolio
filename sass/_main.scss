@@ -34,10 +34,11 @@ $coolgreen: #1b998b; //rgba(27, 153, 139, 100)
 
 .main-menu {
     position: fixed;
+    display: block;
     bottom: 0;
     left: 0;
-    height: 80px;
-    z-index: 70;
+    height: 50px;
+    z-index: 9;
     width: 100%;
     background-color: $coolgreen;
     margin: 0;
@@ -100,11 +101,12 @@ $coolgreen: #1b998b; //rgba(27, 153, 139, 100)
    ========================================================================== */
 
 .start-page {
-    padding: 10%;
-    //margin-bottom: 60px;
+    padding: gutter();
+    
 }
 
 .start-page__intro {
     font-size: 1.414rem;
     line-height: 1.5;
+    margin-bottom: 50px;
 }

@@ -21,16 +21,16 @@
             $('#fullpage').fullpage({
                 sectionsColor: ['#2d4059', '#ffd166', '#f13844', '#1b998b'],
                 menu: '#menu',
-                navigation: false,
-                navigationPosition: 'right',
                 CSS3: true,
-                anchors:[ 'startPage', 'workPage', 'resumePage', 'contactPage']
+                anchors:[ 'startPage', 'workPage', 'resumePage', 'contactPage'],
+                fixedElements: '#menu, .main-menu'
             });
         });
     </script>
 </head>
 
 <body>
+
 <ul class="main-menu" id="menu">
     <li class="main-menu__item menu-link--isNavy" data-menuanchor="startPage">
         <a class="main-menu__link" href="#startPage">

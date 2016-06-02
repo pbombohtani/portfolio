@@ -287,21 +287,22 @@ code {
 /* line 35, ../sass/_main.scss */
 .main-menu {
   position: fixed;
+  display: block;
   bottom: 0;
   left: 0;
-  height: 80px;
-  z-index: 70;
+  height: 50px;
+  z-index: 9;
   width: 100%;
   background-color: #1b998b;
   margin: 0;
 }
 
-/* line 47, ../sass/_main.scss */
+/* line 48, ../sass/_main.scss */
 .main-menu__item {
   display: table;
   height: 100%;
 }
-/* line 48, ../sass/_main.scss */
+/* line 49, ../sass/_main.scss */
 .main-menu__item:nth-child(1) {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -313,7 +314,7 @@ code {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
-/* line 51, ../sass/_main.scss */
+/* line 52, ../sass/_main.scss */
 .main-menu__item:nth-child(2) {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -325,7 +326,7 @@ code {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
-/* line 54, ../sass/_main.scss */
+/* line 55, ../sass/_main.scss */
 .main-menu__item:nth-child(3) {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -337,7 +338,7 @@ code {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
-/* line 57, ../sass/_main.scss */
+/* line 58, ../sass/_main.scss */
 .main-menu__item:nth-child(4) {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -350,7 +351,7 @@ code {
   padding-right: 2.5%;
 }
 
-/* line 65, ../sass/_main.scss */
+/* line 66, ../sass/_main.scss */
 .main-menu__link {
   text-shadow: 2px 2px 3px #1a1a1a;
   text-shadow: 2px 2px 3px 3px #1a1a1a;
@@ -364,22 +365,22 @@ code {
   font-size: 1em;
 }
 
-/* line 82, ../sass/_main.scss */
+/* line 83, ../sass/_main.scss */
 .menu-link--isRed {
   background-color: #f13844;
 }
 
-/* line 86, ../sass/_main.scss */
+/* line 87, ../sass/_main.scss */
 .menu-link--isNavy {
   background-color: #2d4059;
 }
 
-/* line 90, ../sass/_main.scss */
+/* line 91, ../sass/_main.scss */
 .menu-link--isGold {
   background-color: #ffd166;
 }
 
-/* line 94, ../sass/_main.scss */
+/* line 95, ../sass/_main.scss */
 .menu-link--isGreen {
   background-color: #1b998b;
 }
@@ -387,15 +388,16 @@ code {
 /* ==========================================================================
    PAGE STYLES
    ========================================================================== */
-/* line 102, ../sass/_main.scss */
+/* line 103, ../sass/_main.scss */
 .start-page {
-  padding: 10%;
+  padding: 0.83333%;
 }
 
-/* line 107, ../sass/_main.scss */
+/* line 108, ../sass/_main.scss */
 .start-page__intro {
   font-size: 1.414rem;
   line-height: 1.5;
+  margin-bottom: 50px;
 }
 
 /* TYPOGRAPHY
