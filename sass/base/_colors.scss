@@ -1,0 +1,31 @@
+/* Main Color Palette
+   ========================================================================== */
+
+$pomegranate:    hsla(356, 87%, 58%, 1);
+$bluewood:       hsla(214, 33%, 26%, 1);
+$goldentainoi:   hsla(42, 100%, 70%, 1);
+$bianca:         hsla(69, 57%, 95%, 1);
+$mountainmeadow: hsla(173, 70%, 35%, 1);
+
+$white: hsla(0, 0%, 83%, 1);
+$black: hsla(0, 0%, 20%, 1);
+
+/* Font Colors
+   ========================================================================== */
+
+$base-font-color:    $bianca;
+$heading-font-color: $bianca;
+
+/* Nav Colors
+   ========================================================================== */
+
+$menu-bg-color: $pomegranate;
+$menu-hover-bg-color: $mountainmeadow;
+
+/* Section Colors
+   ========================================================================== */
+
+$start-bg-color:         $bluewood;
+$work-bg-color:      $goldentainoi;
+$resume-bg-color:     $pomegranate;
+$contact-bg-color: $mountainmeadow;

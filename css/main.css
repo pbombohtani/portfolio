@@ -1,0 +1,340 @@
+@charset "UTF-8";
+@import url("//hello.myfonts.net/count/30f549");
+@import url("//hello.myfonts.net/count/30f548");
+/* line 5, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* IMPORTS
+   ========================================================================== */
+/* line 9, ../sass/base/_global.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Font smoothing only available on MAC OS */
+/* line 17, ../sass/base/_global.scss */
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+/* Main Color Palette
+   ========================================================================== */
+/* Font Colors
+   ========================================================================== */
+/* Nav Colors
+   ========================================================================== */
+/* Section Colors
+   ========================================================================== */
+/**
+ * @license
+ * MyFonts Webfont Build ID 3208521, 2016-04-23T16:17:29-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AmsiProCond-Ultra by Stawix
+ * URL: http://www.myfonts.com/fonts/stawix/amsi-pro/cond-ultra/
+ * Copyright: &#x00A9; 2012, 2013, 2014, 2015 by Stawix Ruecha &amp; Foundry. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3208521
+ * 
+ * ┬⌐ 2016 MyFonts Inc
+*/
+/* ==========================================================================
+   MyFont Imports
+   ========================================================================== */
+/* AmsiProCond-Ultra Reference */
+/* AmsiProCond-Regular Reference */
+/* AmsiProCond-Ultra Import */
+@font-face {
+  font-family: 'AmsiProCond-Ultra';
+  src: url("../webfonts/30F549_0_0.eot");
+  src: url("../webfonts/30F549_0_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30F549_0_0.woff2") format("woff2"), url("../webfonts/30F549_0_0.woff") format("woff"), url("../webfonts/30F549_0_0.ttf") format("truetype");
+}
+/* AmsiProCond-Regular Import */
+@font-face {
+  font-family: 'AmsiProCond-Regular';
+  src: url("../webfonts/30F548_0_0.eot");
+  src: url("../webfonts/30F548_0_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30F548_0_0.woff2") format("woff2"), url("../webfonts/30F548_0_0.woff") format("woff"), url("../webfonts/30F548_0_0.ttf") format("truetype");
+}
+/* VARIABLES
+   ========================================================================== */
+/* Font Stacks */
+/* Sizes */
+/* Modular Scale */
+/* Font Weights */
+/* STYLES
+   ========================================================================== */
+/* line 30, ../sass/base/_typography.scss */
+html {
+  font-family: "Roboto", Frutiger, ΓÇÿFrutiger LinotypeΓÇÖ, Univers, Calibri, ΓÇÿGill SansΓÇÖ, ΓÇÿGill Sans MTΓÇÖ, ΓÇÿMyriad ProΓÇÖ, Myriad, ΓÇÿDejaVu Sans CondensedΓÇÖ, ΓÇÿLiberation SansΓÇÖ, ΓÇÿNimbus Sans LΓÇÖ, Tahoma, Geneva, ΓÇÿHelvetica NeueΓÇÖ, Helvetica, Arial, sans-serif;
+  font-size: 112.5%;
+  color: #f7faeb;
+  font-weight: 300;
+}
+
+/* line 37, ../sass/base/_typography.scss */
+p {
+  line-height: 1.4rem;
+  margin-top: 1.4rem;
+  margin-bottom: 0;
+  max-width: 33em;
+}
+
+/* line 44, ../sass/base/_typography.scss */
+ul, ol {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+/* line 47, ../sass/base/_typography.scss */
+ul li, ol li {
+  line-height: 1.4rem;
+}
+/* line 50, ../sass/base/_typography.scss */
+ul ul, ul ol, ol ul, ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 56, ../sass/base/_typography.scss */
+blockquote {
+  line-height: 1.4rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+/* line 62, ../sass/base/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: AmsiProCond-Ultra, Impact, Haettenschweiler, ΓÇÿFranklin Gothic BoldΓÇÖ, Charcoal, ΓÇÿHelvetica InseratΓÇÖ, ΓÇÿBitstream Vera Sans BoldΓÇÖ, ΓÇÿArial BlackΓÇÖ, sans-serif;
+  margin-top: 1.4rem;
+  margin-bottom: 0;
+  line-height: 1.4rem;
+}
+
+/* line 69, ../sass/base/_typography.scss */
+h1 {
+  font-size: 4.242rem;
+  line-height: 4.2rem;
+  margin-top: 2.8rem;
+}
+
+/* line 75, ../sass/base/_typography.scss */
+h2 {
+  font-size: 2.828rem;
+  line-height: 2.8rem;
+  margin-top: 2.8rem;
+}
+
+/* line 81, ../sass/base/_typography.scss */
+h3 {
+  font-size: 1.414rem;
+}
+
+/* line 85, ../sass/base/_typography.scss */
+h4 {
+  font-size: 0.707rem;
+}
+
+/* line 89, ../sass/base/_typography.scss */
+h5 {
+  font-size: 0.47133rem;
+}
+
+/* line 93, ../sass/base/_typography.scss */
+h6 {
+  font-size: 0.3535rem;
+}
+
+/* Leading paragraph text */
+/* line 98, ../sass/base/_typography.scss */
+.lead {
+  font-size: 1.414rem;
+}
+
+/* Hug a the block above you */
+/* line 103, ../sass/base/_typography.scss */
+.hug {
+  margin-top: 0;
+}
+
+/**
+ *  CREDITS:
+ *  Typebase.css - http://devinhunt.github.io/typebase.css/
+ *
+ */
+/* line 1, ../sass/layout/_nav.scss */
+.main-menu {
+  overflow: hidden;
+  *zoom: 1;
+  background-color: #f13743;
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  z-index: 9;
+}
+
+/* line 14, ../sass/layout/_nav.scss */
+.main-menu__item {
+  width: 25%;
+  float: left;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  display: table;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0);
+  transition-property: color;
+  transition-duration: 0.3s;
+  backface-visibility: hidden;
+  box-shadow: 0 0 1px transparent;
+}
+/* line 66, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+.main-menu__item:nth-child(4n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+}
+/* line 66, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+.main-menu__item:nth-child(4n + 2) {
+  margin-left: 25%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+.main-menu__item:nth-child(4n + 3) {
+  margin-left: 50%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+.main-menu__item:nth-child(4n + 4) {
+  margin-left: 75%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 25, ../sass/layout/_nav.scss */
+.main-menu__item:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #1b9889;
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+/* line 41, ../sass/layout/_nav.scss */
+.main-menu__item:hover:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+/* line 48, ../sass/layout/_nav.scss */
+.main-menu__link {
+  text-shadow: 2px 2px 3px #1a1a1a;
+  text-shadow: 2px 2px 3px 3px #1a1a1a;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1em;
+}
+
+/* line 60, ../sass/layout/_nav.scss */
+.main-menu__text {
+  font-size: small;
+}
+
+/* line 1, ../sass/pages/_start.scss */
+.start-page {
+  padding: 0.83333%;
+}
+
+/* line 6, ../sass/pages/_start.scss */
+.start-page__intro {
+  font-size: 1.414rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}

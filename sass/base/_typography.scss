@@ -1,0 +1,111 @@
+/* VARIABLES
+   ========================================================================== */
+
+/* Font Stacks */
+//$body-stack: 'Open Sans', Frutiger, ‘Frutiger Linotype’, Univers, Calibri, ‘Gill Sans’, ‘Gill Sans MT’, ‘Myriad Pro’, Myriad, ‘DejaVu Sans Condensed’, ‘Liberation Sans’, ‘Nimbus Sans L’, Tahoma, Geneva, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+
+$body-stack: 'Roboto', Frutiger, ‘Frutiger Linotype’, Univers, Calibri, ‘Gill Sans’, ‘Gill Sans MT’, ‘Myriad Pro’, Myriad, ‘DejaVu Sans Condensed’, ‘Liberation Sans’, ‘Nimbus Sans L’, Tahoma, Geneva, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+
+//$body-stack: 'Lato', Frutiger, ‘Frutiger Linotype’, Univers, Calibri, ‘Gill Sans’, ‘Gill Sans MT’, ‘Myriad Pro’, Myriad, ‘DejaVu Sans Condensed’, ‘Liberation Sans’, ‘Nimbus Sans L’, Tahoma, Geneva, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+
+$heading-stack: AmsiProCond-Ultra, Impact, Haettenschweiler, ‘Franklin Gothic Bold’, Charcoal, ‘Helvetica Inserat’, ‘Bitstream Vera Sans Bold’, ‘Arial Black’, sans-serif;
+
+/* Sizes */
+$base-font-size: 18; //in pixels
+$base-line-height: 1.4;
+$leading: $base-line-height * 1rem;
+
+/* Modular Scale */
+$scale: 1.414; //Augmented Fourth
+
+/* Font Weights */
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+
+/* STYLES
+   ========================================================================== */
+
+html {
+  font-family: $body-stack;
+  font-size: $base-font-size / 16 * 100%;
+  color: $base-font-color;
+  font-weight: $light;
+}
+
+p {
+  line-height:   $leading;
+  margin-top:    $leading;
+  margin-bottom:        0;
+  max-width:         33em;
+}
+
+ul, ol {
+  margin-top:    $leading;
+  margin-bottom: $leading;
+    li {
+      line-height: $leading; 
+    }
+  ul, ol {
+    margin-top: 0;
+    margin-bottom: 0; 
+    }
+}
+
+blockquote {
+  line-height:   $leading;
+  margin-top:    $leading;
+  margin-bottom: $leading;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:   $heading-stack;
+  margin-top:          $leading;
+  margin-bottom:              0;
+  line-height:         $leading;
+}
+
+h1 {
+  font-size:   3 * $scale * 1rem;
+  line-height:      3 * $leading;
+  margin-top:       2 * $leading;
+}
+
+h2 {
+  font-size:   2 * $scale * 1rem;
+  line-height:      2 * $leading;
+  margin-top:       2 * $leading;   
+}
+
+h3 {
+    font-size: 1 * $scale * 1rem;
+}
+  
+h4 {
+  font-size: $scale / 2 * 1rem;    
+}
+
+h5 {
+  font-size: $scale / 3 * 1rem;    
+}
+
+h6 {
+  font-size: $scale / 4 * 1rem;   
+}
+
+/* Leading paragraph text */
+.lead {
+  font-size: $scale * 1rem;  
+}
+
+/* Hug a the block above you */
+.hug {
+  margin-top: 0;
+}
+
+/**
+ *  CREDITS:
+ *  Typebase.css - http://devinhunt.github.io/typebase.css/
+ *
+ */
