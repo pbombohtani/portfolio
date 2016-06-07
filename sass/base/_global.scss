@@ -5,6 +5,24 @@
 @import "compass/css3";
 @import "susy";
 
+/* GLOBAL VARIABLES
+   ========================================================================== */
+
+$icon-small-width: 16px;
+$icon-small-height: 16px; 
+
+$icon-medium-width: 32px; 
+$icon-medium-height: 32px; 
+
+
+/* BREAKPOINT SETTINGS
+   ========================================================================== */
+
+$breakpoints: (
+  'small'  : 400px,
+  'medium' : 750px,
+  'large'  : 1200px,
+) !default;
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
