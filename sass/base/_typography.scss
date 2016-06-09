@@ -10,7 +10,6 @@ $body-stack: 'Roboto', Frutiger, ‘Frutiger Linotype’, Univers, Calibri, ‘G
 
 $heading-stack: AmsiProCond-Ultra, Impact, Haettenschweiler, ‘Franklin Gothic Bold’, Charcoal, ‘Helvetica Inserat’, ‘Bitstream Vera Sans Bold’, ‘Arial Black’, sans-serif;
 
-/* Sizes */
 $base-font-size: 18; //in pixels
 $base-line-height: 1.4;
 $leading: $base-line-height * 1rem;
@@ -23,6 +22,10 @@ $light: 300;
 $normal: 400;
 $semibold: 500;
 $bold: 700;
+
+/* Font Sizes */
+$small: 0.707em;
+$normal: 1em;
 
 /* STYLES
    ========================================================================== */
