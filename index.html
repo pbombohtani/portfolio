@@ -25,42 +25,39 @@
             $('#fullpage').fullpage({
                 sectionsColor: ['#2d4059', '#ffd166', '#f13844', '#1b998b'],
                 menu: '#menu',
-                CSS3: true,
-                anchors:[ 'startPage', 'workPage', 'resumePage', 'contactPage'],
-                fixedElements: '#menu, .main-menu'
+                CSS3: true
+                //anchors:['workPage', 'resumePage', 'contactPage'],
+                //animateAnchor: false
+               // fixedElements: '#menu, .main-menu'
             });
         });
     </script>
 </head>
 
 <body>
-
-<ul class="main-menu" id="menu">
-    <li class="main-menu__item menu-link--isNavy" data-menuanchor="startPage">
-        <a class="main-menu__link" href="#startPage">
-            <div class="start-icon"></div>
-            <span class="main-menu__text">Start</span>
-        </a>
-    </li> 
-    <li class="main-menu__item menu-link--isGold" data-menuanchor="workPage">
-        <a class="main-menu__link" href="#workPage">
-            <div class="work-icon"></div>
-            <span class="main-menu__text">Work</span>
-        </a>
-    </li>
-    <li class="main-menu__item menu-link--isRed" data-menuanchor="resumePage">
-        <a class="main-menu__link " href="#resumePage">
-            <div class="resume-icon"></div>
-            <span class="main-menu__text">Resume</span>
-        </a>
-    </li>
-    <li class="main-menu__item menu-link--isGreen" data-menuanchor="contactPage">
-        <a class="main-menu__link" href="#contactPage">
-            <div class="chat-icon"></div>
-            <span class="main-menu__text">Contact</span>
-        </a>
-    </li>
+<nav class="main-nav">
+    <ul class="main-menu" id="menu">
+        <li class="main-menu__item menu-link--isGold" data-menuanchor="workPage">
+            <a class="main-menu__link" href="#workPage">
+                <div class="work-icon"></div>
+                <span class="main-menu__text">Work</span>
+            </a>
+        </li>
+        <li class="main-menu__item menu-link--isRed" data-menuanchor="resumePage">
+            <a class="main-menu__link " href="#resumePage">
+                <div class="resume-icon"></div>
+                <span class="main-menu__text">Resume</span>
+            </a>
+        </li>
+        <li class="main-menu__item menu-link--isGreen" data-menuanchor="contactPage">
+            <a class="main-menu__link" href="#contactPage">
+                <div class="chat-icon"></div>
+                <span class="main-menu__text">Contact</span>
+            </a>
+        </li>
 </ul>
+</nav>
+
 <div id="fullpage">
     <div class="section start-page" data-anchor="startPage">
         <h1>UI &amp; FRONT-END <span style="font-size: 15vmin;">DESIGNER</span></h1>
